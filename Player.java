@@ -2,6 +2,8 @@ import java.util.ArrayList;
 public class Player {
     private String name;
     public String strategy;
+    private int score = 0;
+    private int handScore = 0;
     private static ArrayList<Integer> otherScores = new ArrayList<Integer>();
     private static int winningScore = 0;
 
