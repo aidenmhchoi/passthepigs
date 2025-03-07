@@ -25,6 +25,10 @@ public class Dealer {
             rolls[0] = "Trotter";
             return "Trotter";
         }
+        else if(pig1 <= 99.3) {
+            rolls[0] = "Snouter";
+            return "Snouter";
+        }
         else {
             rolls[0] = "Leaning Jowler";
             return "Leaning Jowler";
@@ -49,11 +53,17 @@ public class Dealer {
             rolls[1] = "Trotter";
             return "Trotter";
         }
+        else if(pig2 <= 99.3) {
+            rolls[1] = "Snouter";
+            return "Snouter";
+        }
         else {
             rolls[1] = "Leaning Jowler";
             return "Leaning Jowler";
         }
     }
-   
+    public String[] getRolls() {
+        return rolls;
+    }
     
 }
